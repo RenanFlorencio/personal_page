@@ -4,6 +4,7 @@ import { content } from '@/app/data/content'
 
 export default function Hero() {
   const { name, headline, valueStatement, location, email, linkedin, github, imageUrl, coverImageUrl, coverImagePosition = 'center' } = content.hero
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || ''
   const positionMap = { top: 'object-top', center: 'object-center', bottom: 'object-bottom', left: 'object-left', right: 'object-right' }
   const isCustomPosition = coverImagePosition && typeof coverImagePosition === 'string' && coverImagePosition.includes('%')
   const positionClass = isCustomPosition ? '' : (positionMap[coverImagePosition] || 'object-center')
@@ -14,7 +15,7 @@ export default function Hero() {
       <div className="relative w-full h-36 md:h-80 overflow-hidden bg-gradient-to-br from-accent to-accent-hover">
         {coverImageUrl ? (
           <Image
-            src={coverImageUrl}
+            src={base + coverImageUrl}
             alt=""
             fill
             className={`object-cover ${!positionStyle ? positionClass : ''}`}
@@ -33,7 +34,7 @@ export default function Hero() {
             <div className="-mt-20 md:-mt-24 flex-shrink-0 z-10 order-first">
               <div className="relative w-44 h-44 md:w-52 md:h-52 rounded-2xl overflow-hidden border-4 border-white shadow-card-hover">
                 <Image
-                  src={imageUrl}
+                  src={base + imageUrl}
                   alt={name}
                   fill
                   className="object-cover"

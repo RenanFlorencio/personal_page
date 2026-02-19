@@ -40,4 +40,21 @@ Place your resume PDF in the `public` folder as `resume.pdf`. The navbar “Down
 
 ## Deployment
 
-Deploy the built app to [Vercel](https://vercel.com), [Netlify](https://netlify.com), or any host that supports Next.js. Run `npm run build` and use the output (or connect your Git repo for automatic deploys).
+### GitHub Pages (project site)
+
+Your site will be at `https://<username>.github.io/<repo-name>/`. For images and links to work, the app must know this path.
+
+1. **Build with your repo name** (use your actual repo name, e.g. `personal_page`):
+   ```bash
+   NEXT_PUBLIC_BASE_PATH=/<repo-name> npm run build
+   ```
+2. The static site is in the **`out`** folder. Deploy that to GitHub Pages:
+   - Either push the contents of `out/` to a branch named `gh-pages`, or  
+   - In the repo: **Settings → Pages → Source**: deploy from that branch (or from GitHub Actions if you use a workflow).
+3. Your page URL will be `https://<username>.github.io/<repo-name>/`.
+
+If you skip `NEXT_PUBLIC_BASE_PATH`, images and the resume link will break on GitHub Pages because they’d point to the root of the domain instead of `/<repo-name>/`.
+
+### Other hosts (Vercel, Netlify, etc.)
+
+Run `npm run build` and deploy. You don’t need `NEXT_PUBLIC_BASE_PATH` if the site is served from the root (e.g. `yourname.vercel.app`).

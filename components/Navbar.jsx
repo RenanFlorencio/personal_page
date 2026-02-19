@@ -46,10 +46,10 @@ export default function Navbar() {
         </div>
 
         <a
-          href={content.resumePdfUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden md:inline-flex items-center gap-2 text-sm font-medium px-4 py-2.5 rounded-lg bg-accent text-white hover:bg-accent-hover transition-all duration-200 hover:shadow-card-hover hover:-translate-y-0.5 shrink-0"
+href={(process.env.NEXT_PUBLIC_BASE_PATH || '') + content.resumePdfUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden md:inline-flex items-center gap-2 text-sm font-medium px-4 py-2.5 rounded-lg bg-accent text-white hover:bg-accent-hover transition-all duration-200 hover:shadow-card-hover hover:-translate-y-0.5 shrink-0"
         >
           <Download className="w-4 h-4" />
           Download Resume
@@ -81,7 +81,7 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href={content.resumePdfUrl}
+              href={(process.env.NEXT_PUBLIC_BASE_PATH || '') + content.resumePdfUrl}
               target="_blank"
               rel="noopener noreferrer"
               onClick={closeMenu}
