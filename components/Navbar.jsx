@@ -45,7 +45,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        <a
+        {/* <a
 href={content.resumePdfUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -53,7 +53,7 @@ href={content.resumePdfUrl}
         >
           <Download className="w-4 h-4" />
           Download Resume
-        </a>
+        </a> */}
 
         {/* Mobile menu button */}
         <button
@@ -80,7 +80,7 @@ href={content.resumePdfUrl}
                 {label}
               </Link>
             ))}
-            <a
+            {/* <a
               href={content.resumePdfUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -89,7 +89,7 @@ href={content.resumePdfUrl}
             >
               <Download className="w-4 h-4" />
               Download Resume
-            </a>
+            </a> */}
           </div>
         </div>
       )}
