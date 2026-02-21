@@ -6,7 +6,7 @@ export const content = {
   hero: {
     name: 'Renan Florencio',
     headline: 'Computer Engineering Student & Researcher',
-    valueStatement: 'Bridging formal reasoning and applied ML through research and engineering.',
+    valueStatement: 'On my way to become an expert in machine learning and artificial intelligence.',
     location: 'Campinas, SP',
     email: 'r244808@dac.unicamp.br',
     linkedin: 'https://linkedin.com/in/renan-florencio-29770a247',
@@ -30,7 +30,7 @@ export const content = {
       company: 'Purdue University',
       role: 'Undergraduate Student Researcher',
       location: 'West Lafayette, IN',
-      dates: 'Jan 2026 – May 2026',
+      dates: 'Jan 2026 – Present',
       bullets: [
         'Researching large language model agents for equivalence between optimization problems through the PONTES Mobility Program.',
         'Investigating LLM-based agents for formal reasoning about optimization problems.',
@@ -55,12 +55,14 @@ export const content = {
 
   projects: [
     {
-      title: 'Data Structure Problems',
+      title: 'Simulated Driving Behavior',
       bullets: [
-        'Solved problems in C involving pointers, heaps, queues, graphs, linked lists, matrices, and more.',
-        'Focused on correctness and clean implementation of classic data structures.',
+        'Researching synthesis of inertial data for classifying drivers with multiple behavior patterns (CNPq, H.IAAC).',
+        'Designed and evaluated inertial sensor data synthesis techniques.',
+        'Developed Python scripts to automatically generate driver routines and behaviors using LLMs.',
       ],
-      tech: ['C'],
+      tech: ['Python', 'pandas', 'scikit-learn', 'LLMs', 't-SNE'],
+      link: 'https://github.com/H-IAAC/simulated_driving_behavior',
     },
     {
       title: 'Credit Card Fraud Detection',
@@ -69,14 +71,84 @@ export const content = {
         'Handled class imbalance and evaluated model performance for fraud detection.',
       ],
       tech: ['Python', 'scikit-learn', 'Pandas'],
+      link: 'https://github.com/RenanFlorencio/credit_card_fraud_detection',
     },
     {
-      title: 'Computer Vision Panorama',
+      title: 'House Pricing Prediction',
       bullets: [
-        'Applied computer vision techniques using Python and OpenCV to stitch a panorama.',
-        'Explored feature detection, matching, and image blending.',
+        'Predicting the price of a house based on its features.',
+        'Used Models, SVR and Ensembles.',
+        'Evaluated the best model using metrics like RMSE, MAE, and R².',
+        'Analyzed feature importance and compared the models.'
       ],
-      tech: ['Python', 'OpenCV'],
+      tech: ['Python', 'Pandas', 'Scikit-learn'],
+      link: 'https://github.com/RenanFlorencio/house_pricing_prediction',
+    },
+    {
+      title: 'Computer Vision',
+      bullets: [
+        'Stitching a panorama using feature detection, matching, and image blending.',
+        '3D reconstruction of a scene using several images.',
+        'Live warning system for blind people using object detection.',
+        'Analysis of generative AI models, LoRA and Stable Diffusion.'
+      ],
+      tech: ['Python', 'OpenCV', 'LoRA', 'Stable Diffusion'],
+      link: 'https://github.com/RenanFlorencio/computer_vision',
+    },
+    {
+      title: 'Oportuni Application',
+      bullets: [
+        'Application to help students find internships and jobs.',
+        'Implemented a web application using Django to help students find internships and jobs.',
+        'Used MongoDB, HTML, CSS, and JavaScript to create the frontend and backend of the application.',
+      ],
+      tech: ['Python', 'MongoDB', 'HTML', 'CSS', 'JavaScript'],
+      link: 'https://github.com/RenanFlorencio/oportuni_application',
+    },
+    {
+      title: 'Titanic Survival Prediction',
+      bullets: [
+        'Creating a machine learning model to predict whether or not a passanger on Titanic survived,',
+        'The project goes from cleaning the data to training different models and evaluating the best one.',
+        'Used Random Forest, Logistic Regression, and Support Vector Machines.',
+      ],
+      tech: ['Python', 'Pandas', 'Scikit-learn'],
+      link: 'https://github.com/RenanFlorencio/titanic-survival-prediction',
+    },
+    {
+      title: 'Numerical Calculus Methods',
+      bullets: [
+        'Standard methods implemented by me to get zero of functions, least squares and interpolation.'
+      ],
+      tech: ['Python', 'Pandas', 'Scikit-learn'],
+      link: 'https://github.com/RenanFlorencio/numerical_calculus',
+    },
+    {
+      title: 'Data Structure Problems',
+      bullets: [
+        'Solved problems in C involving pointers, heaps, queues, graphs, linked lists, matrices, and more.',
+        'Focused on correctness and clean implementation of classic data structures.',
+      ],
+      tech: ['C'],
+      link: 'https://github.com/RenanFlorencio/data_structures',
+    },  
+    {
+      title: 'Parallel Programming',
+      bullets: [
+        'Code develop for the Parallel Programming course, using OpenMP and CUDA .',
+        'Used OpenMP to parallelize the code and CUDA to use the GPU.'
+      ],
+      tech: ['C', 'OpenMP', 'CUDA'],
+      link: 'https://github.com/RenanFlorencio/parallel_computing',
+    },
+    {
+      title: 'RISC-V Assembly Language',
+      bullets: [
+        'Repo for most of the code I wrote for the Assembly Programming course at university.', 
+        'All of the code is written for the RISC-V architecture.'
+      ],
+      tech: ['Assembly'],
+      link: 'https://github.com/RenanFlorencio/Assembly-Language',
     },
   ],
 
@@ -84,13 +156,13 @@ export const content = {
     {
       title: 'Fooling the Model, Failing the Road: Benchmarking Inertial Sensor Fidelity in Driving Simulators',
       where: '2025 National Meeting on Artificial and Computational Intelligence (BRACIS/ENIAC)',
-      link: 'https://github.com/RenanFlorencio',
+      link: 'https://sol.sbc.org.br/index.php/eniac/article/view/38827',
     },
     {
       title: 'Driver Behavior Classification based on Inertial Data',
       where: 'XXXIII Scientific Initiation Meeting of Unicamp',
-      link: 'https://github.com/RenanFlorencio',
-    },
+      link: 'https://github.com/H-IAAC/sumo_carla_comparison',
+    },  
     {
       title: 'XVI Department of Computing and Automation Meeting',
       where: 'Faculty of Electrical and Computer Engineering – Unicamp',
@@ -99,8 +171,8 @@ export const content = {
   ],
 
   skills: {
-    languages: ['C', 'C++', 'Python'],
-    frameworks: ['TensorFlow', 'SciPy', 'Pandas', 'NumPy'],
+    languages: ['Python', 'C', 'C++'],
+    frameworks: ['LangChain', 'Pytorch', 'TensorFlow', 'SciPy', 'Pandas', 'NumPy', 'Lean 4'],
     tools: ['Jupyter', 'Matplotlib', 'Wandb', 'Git', 'GitHub'],
     cloud: [],
     databases: [],
