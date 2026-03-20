@@ -27,19 +27,18 @@ export const content = {
 
   experience: [
     {
-      company: 'Purdue University',
-      role: 'Undergraduate Student Researcher',
+      company: 'Purdue University: PONTES Mobility Program',
+      role: 'Visiting Scholar',
       location: 'West Lafayette, IN',
-      dates: 'Jan 2026 – Present',
+      dates: 'Jan 2026 – July 2026',
       bullets: [
-        'Researching large language model agents for equivalence between optimization problems through the PONTES Mobility Program.',
         'Investigating LLM-based agents for formal reasoning about optimization problems.',
-        'Developed Lean 4 templates to analyze equivalence between LP and MILP formulations.',
-        'Applied agent-assisted theorem proving to support structured mathematical reasoning.',
+        'Applying multi-agent workflows for equivalence between optimization problems.',
+        'Developing Lean 4 code to prove equivalence between LP and MILP formulations.',
       ],
     },
     {
-      company: 'Universidade Estadual de Campinas (Unicamp)',
+      company: 'Hub of Artificial Intelligence and Cognitive Architectures (H.IAAC)',
       role: 'Undergraduate Student Researcher',
       location: 'Campinas, SP',
       dates: 'Aug 2024 – Dec 2025',
@@ -61,7 +60,7 @@ export const content = {
         'Designed and evaluated inertial sensor data synthesis techniques.',
         'Developed Python scripts to automatically generate driver routines and behaviors using LLMs.',
       ],
-      tech: ['Python', 'pandas', 'scikit-learn', 'LLMs', 't-SNE'],
+      tech: ['Pandas', 'scikit-learn', 'LLMs', 't-SNE'],
       link: 'https://github.com/H-IAAC/simulated_driving_behavior',
     },
     {
@@ -70,7 +69,27 @@ export const content = {
         'Preprocessed data and applied machine learning methods to classify an unbalanced dataset.',
         'Handled class imbalance and evaluated model performance for fraud detection.',
       ],
-      tech: ['Python', 'scikit-learn', 'Pandas'],
+      tech: ['scikit-learn', 'Pandas'],
+      link: 'https://github.com/RenanFlorencio/credit_card_fraud_detection',
+    },
+    {
+      title: 'Language Learning Agent',
+      bullets: [
+        'Used Langgraph to create an Agent to help search for content in a required language.',
+        'Designed the data schema and the information storage and retrieval.',
+        'Implemented a multi-agent framework with an orchestrator.',
+        'Created an UI to interact with the user'
+      ],
+      tech: ['LangChain', 'LangGraph', 'LangSmith'],
+      link: 'https://github.com/RenanFlorencio/language-learning-agent',
+    },
+    {
+      title: 'Credit Card Fraud Detection',
+      bullets: [
+        'Preprocessed data and applied machine learning methods to classify an unbalanced dataset.',
+        'Handled class imbalance and evaluated model performance for fraud detection.',
+      ],
+      tech: ['scikit-learn', 'Pandas'],
       link: 'https://github.com/RenanFlorencio/credit_card_fraud_detection',
     },
     {
@@ -81,7 +100,7 @@ export const content = {
         'Evaluated the best model using metrics like RMSE, MAE, and R².',
         'Analyzed feature importance and compared the models.'
       ],
-      tech: ['Python', 'Pandas', 'Scikit-learn'],
+      tech: ['Pandas', 'Scikit-learn'],
       link: 'https://github.com/RenanFlorencio/house_pricing_prediction',
     },
     {
@@ -92,7 +111,7 @@ export const content = {
         'Live warning system for blind people using object detection.',
         'Analysis of generative AI models, LoRA and Stable Diffusion.'
       ],
-      tech: ['Python', 'OpenCV', 'LoRA', 'Stable Diffusion'],
+      tech: ['OpenCV', 'LoRA', 'Stable Diffusion'],
       link: 'https://github.com/RenanFlorencio/computer_vision',
     },
     {
@@ -102,7 +121,7 @@ export const content = {
         'Implemented a web application using Django to help students find internships and jobs.',
         'Used MongoDB, HTML, CSS, and JavaScript to create the frontend and backend of the application.',
       ],
-      tech: ['Python', 'MongoDB', 'HTML', 'CSS', 'JavaScript'],
+      tech: ['MongoDB', 'HTML', 'CSS', 'JavaScript'],
       link: 'https://github.com/RenanFlorencio/oportuni_application',
     },
     {
@@ -112,7 +131,7 @@ export const content = {
         'The project goes from cleaning the data to training different models and evaluating the best one.',
         'Used Random Forest, Logistic Regression, and Support Vector Machines.',
       ],
-      tech: ['Python', 'Pandas', 'Scikit-learn'],
+      tech: ['Pandas', 'Scikit-learn'],
       link: 'https://github.com/RenanFlorencio/titanic-survival-prediction',
     },
     {
@@ -120,7 +139,7 @@ export const content = {
       bullets: [
         'Standard methods implemented by me to get zero of functions, least squares and interpolation.'
       ],
-      tech: ['Python', 'Pandas', 'Scikit-learn'],
+      tech: ['Pandas', 'Scikit-learn'],
       link: 'https://github.com/RenanFlorencio/numerical_calculus',
     },
     {
@@ -172,8 +191,8 @@ export const content = {
 
   skills: {
     languages: ['Python', 'C', 'C++'],
-    frameworks: ['LangChain', 'Pytorch', 'TensorFlow', 'SciPy', 'Pandas', 'NumPy', 'Lean 4'],
-    tools: ['Jupyter', 'Matplotlib', 'Wandb', 'Git', 'GitHub'],
+    frameworks: ['Pandas', 'LangChain & LangGraph', 'Pytorch', 'TensorFlow', 'Matplotlib', 'SciPy', 'Lean 4'],
+    tools: ['Jupyter', 'Wandb', 'LangSmith', 'Git', 'GitHub'],
     cloud: [],
     databases: [],
     humanLanguages: [
@@ -189,7 +208,7 @@ export const content = {
     school: 'Universidade Estadual de Campinas (Unicamp)',
     location: 'Campinas, SP',
     dates: 'Feb 2022 – July 2027',
-    gpa: '3.5 / 4',
+    gpa: '9.0 / 10',
   },
 
   contact: {
