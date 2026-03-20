@@ -64,15 +64,6 @@ export const content = {
       link: 'https://github.com/H-IAAC/simulated_driving_behavior',
     },
     {
-      title: 'Credit Card Fraud Detection',
-      bullets: [
-        'Preprocessed data and applied machine learning methods to classify an unbalanced dataset.',
-        'Handled class imbalance and evaluated model performance for fraud detection.',
-      ],
-      tech: ['scikit-learn', 'Pandas'],
-      link: 'https://github.com/RenanFlorencio/credit_card_fraud_detection',
-    },
-    {
       title: 'Language Learning Agent',
       bullets: [
         'Used Langgraph to create an Agent to help search for content in a required language.',
