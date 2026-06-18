@@ -5,7 +5,7 @@
 export const content = {
   hero: {
     name: 'Renan Florencio',
-    headline: 'Computer Engineering Student & Researcher',
+    headline: 'Machine Learning & AI',
     valueStatement: 'On my way to become an expert in machine learning and artificial intelligence.',
     location: 'Campinas, SP',
     email: 'r244808@dac.unicamp.br',
@@ -27,19 +27,21 @@ export const content = {
 
   experience: [
     {
-      company: 'Purdue University: PONTES Mobility Program',
-      role: 'Visiting Scholar',
+      company: 'Purdue University',
+      role: 'AI for Optimization Visiting Scholar',
       location: 'West Lafayette, IN',
       dates: 'Jan 2026 – July 2026',
       bullets: [
-        'Investigating LLM-based agents for formal reasoning about optimization problems.',
-        'Applying multi-agent workflows for equivalence between optimization problems.',
-        'Developing Lean 4 code to prove equivalence between LP and MILP formulations.',
-      ],
+        'Developed an agentic pipeline to solve optimization proof problems using LangGraph and LangChain.',
+        'Applied Prompt Engineering, Orchestration, Verification and Validation of agent responses.',
+        'Wrote proofs in code using Lean4 programming language',
+        'Solved a new problem in optimization by applying the agentic pipeline',
+        'Received a Distintion award for the "Agents for Optimization Proofs of Equivalence" presentation at the Undergrad Spring Conference'
+      ]
     },
     {
       company: 'Hub of Artificial Intelligence and Cognitive Architectures (H.IAAC)',
-      role: 'Undergraduate Student Researcher',
+      role: 'Machine Learning & AI Undergraduate Student Researcher',
       location: 'Campinas, SP',
       dates: 'Aug 2024 – Dec 2025',
       bullets: [
@@ -47,7 +49,7 @@ export const content = {
         'Designed and evaluated inertial sensor data synthesis techniques.',
         'Developed Python scripts to automatically generate driver routines and behaviors using LLMs.',
         'Used Random Forest, SVM, and XGBoost to classify behavior, and t-SNE to visualize data.',
-        'Contributed to a standard baseline for the Driver Behavior Recognition field.',
+        'Published a paper "Fooling the Model, Failing the Road: Benchmarking Inertial Sensor Fidelity in Driving Simulators" at BRACIS/ENIAC (2025)'
       ],
     },
   ],
@@ -199,7 +201,7 @@ export const content = {
     school: 'Universidade Estadual de Campinas (Unicamp)',
     location: 'Campinas, SP',
     dates: 'Feb 2022 – July 2027',
-    gpa: '9.0 / 10',
+    gpa: '8.9 / 10 (Top 5)',
   },
 
   contact: {
