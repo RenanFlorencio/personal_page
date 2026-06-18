@@ -20,9 +20,10 @@ export const content = {
   },
 
   about: [
+    'Machine Learning & AI researcher',
     'B.S. in Computer Engineering at Universidade Estadual de Campinas (Unicamp), expected July 2027.',
     'Research at Unicamp on synthesis of inertial data for driver behavior classification (CNPq / H.IAAC), and at Purdue University on LLM-based agents for optimization and formal reasoning (PONTES Mobility Program).',
-    'Interests: machine learning, large language models, formal reasoning, and applied research.',
+    'Interests: ML, LLMs, applied research.',
   ],
 
   experience: [

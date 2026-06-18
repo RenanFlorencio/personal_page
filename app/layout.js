@@ -8,12 +8,22 @@ const fontSans = Plus_Jakarta_Sans({
 })
 
 export const metadata = {
-  title: 'Renan Florencio | Computer Engineering & Research',
+  metadataBase: new URL('https://renanflorencio.github.io/personal_page'),
+  title: 'Renan Florencio | Machine Learning & AI',
   description: 'Personal portfolio of Renan Matheus da Silva Florencio — B.S. Computer Engineering at Unicamp, research in ML, LLMs, and driver behavior. Purdue PONTES exchange.',
   openGraph: {
-    title: 'Renan Florencio | Computer Engineering & Research',
+    title: 'Renan Florencio | Machine Learning & AI',
     description: 'Personal portfolio — Unicamp, Purdue research, ML & LLMs.',
     type: 'website',
+    url: 'https://renanflorencio.github.io/personal_page',
+    images: [
+      {
+        url: '/cover.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Renan Florencio | Machine Learning & AI Portfolio Cover',
+      },
+    ],
   },
 }
 
